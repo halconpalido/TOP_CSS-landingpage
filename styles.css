@@ -1,0 +1,162 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button {
+    padding: 7px 35px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882F6;
+}
+
+.header {
+    background-color: #1D2937;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    min-height: 70px;
+    font-size: 12px;
+}
+
+#header_logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#navbar {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+.hero {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #1D2937;
+    color: #F9FAF8;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+}
+
+#hero_image {
+    max-height: 300px;
+    object-fit: cover;
+}
+
+#hero_text {
+    padding-right: 40px;
+}
+
+#hero_text > p {
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+#hero_text > h1 {
+    width: 70%;
+}
+
+.main_btn {
+    color: white;
+}
+
+#section_1 {
+    padding-top: 70px;
+    text-align: center;
+}
+
+.features {
+    padding-top: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    width: 20%;
+}
+
+.feature_img {
+    border: #3882F6 solid 2px;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+
+}
+
+#section_2 {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+#quote {
+    font-size: 30px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#author {
+    padding-top: 15px;
+    text-align: right;
+    font-weight: bold;
+}
+
+#section_3 {
+    display: flex;
+    justify-content: center;
+    padding: 5% 2%;
+}
+
+#section_3 > div {
+    padding: 30px 80px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    gap: 50px;
+}
+
+.secondary_btn {
+    border: white solid;
+    padding: 5px 30px;
+    color: white;
+}
+
+.footer {
+    background-color: #1D2937;
+    color: #F9FAF8;
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
